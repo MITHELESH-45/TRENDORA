@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 
-const adminauth=async(req,resizeBy,next)=>{
+const adminauth=async(req,res,next)=>{
     try{
         const {token}=req.headers
 
